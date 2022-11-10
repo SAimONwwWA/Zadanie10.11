@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #127c6e;
+    height: 100%;
+    width: 100%;
+}
+#panel-lewy{
+   color: white;
+   height: 900px;
+   width: 25%; 
+   float: left;
+   background-color: #333333;
+   font-size: 30px;
+   object-fit: cover;
+    box-shadow: 2px 2px 4px #000;
+    
+}
+#panel-prawypi{
+    background-image: url('japan1.gif');
+    height: 100px;
+    width: 75%;
+    text-align: center;
+    float: left;
+    size: 50px;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    object-fit: cover;
+    box-shadow: 5px 3px 5px rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+#panel-prawydr{
+    background-color: rgb(19, 139, 119);
+    height: 300px;
+    width: 75%;
+    float: left;
+    object-fit: cover;
+    box-shadow: 4px 4px 4px #000;
+    text-shadow: 2px 2px 4px rgb(70, 70, 70);
+}
+#panel-prawytr{
+    background-color: #666666;
+    height: 500px;
+    width: 75%;
+    text-align: center;
+    float: left;
+    object-fit: cover;
+    box-shadow: 2px 2px 4px #000;
+}
+
+#stopka{
+    clear: both;
+    background-color: #127c6e;
+    text-align: center;
+    
+}
+form{
+    padding: 20px;
+    background-image: url('tlo2.png');
+    background-size: cover;
+    height: 200px;
+    position: relative;
+    color: white;
+    width: 1500px;
+}
+#pierwsze{
+    margin-right: 20px;
+    padding-left: 10px;
+    grid-column: 6px;
+    width: 30%;
+    height: auto;
+    
+    object-fit: cover;
+    box-shadow: 3px 3px 0px rgb(7, 197, 211);
+    display: inline-block;
+    text-decoration: none;
+    transform: scale(1);
+    transition: all 0.25s ease;
+    
+    
+}
+#pierwsze:hover{
+    transform: scale(1.1);
+    box-shadow: 6px 5px 5px rgb(255, 255, 255);
+}
+#drugie{
+    width: 30%;
+    height: auto;
+    object-fit: cover;
+    box-shadow: 2px 2px 0px rgb(240, 6, 6);
+    display: inline-block;
+    text-decoration: none;
+    transform: scale(1);
+    transition: all 0.25s ease;
+    padding-left: 2px;
+}
+#drugie:hover{
+    transform: scale(1.1);
+    box-shadow: 6px 5px 5px rgb(255, 255, 255);
+}
+#trzecie{
+    width: 30%;
+    height: auto;
+    padding-left: 20px;
+    object-fit: cover;
+    box-shadow: 2px 2px 0px rgb(39, 201, 7);
+    display: inline-block;
+    text-decoration: none;
+    transform: scale(1);
+    transition: all 0.25s ease;
+}
+#trzecie:hover{
+    transform: scale(1.1);
+    box-shadow: 6px 5px 5px rgb(255, 255, 255);
+}
+#top{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+ol{
+    margin-top: 15px;
+    margin-left: 5%;
+    display: inline-block;
+    text-decoration: none;
+    color:brown;
+    max-width: 300px;
+    max-height: 40px;
+    min-width: 100px;
+    min-height: 20px;
+    border-radius: 5px;
+    
+    box-shadow: 2px 2px 4px rgb(14, 212, 212);
+    font-size: 30px;
+    text-align: center;
+    transform: scale(1);
+    transition: all 0.25s ease;
+    color: rgb(255, 255, 255);
+    background-color: #5a5f5f86;
+    line-height: 40px;
+    justify-content: center;
+    
+}
+ol:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 2px 4px rgb(255, 255, 255);
+
+}
+
+#lg{
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 4px rgb(16, 162, 199);
+    text-align: center;
+}
+#php{
+    background-color: #127c6e;
+    text-align: center;
+    height: 400px;
+    width: 100%;
+    box-shadow: 2px 2px 4px #000;
+    font-size: 60px;
+    color: white;
+    text-shadow: 2px 2px 4px #000;
+}
+
+#bd{
+    background-color: #333333;
+}
+.menu li {
+    display: inline-block;
+  }
+  .menu a {
+    text-decoration: none;
+    color:brown;
+  }
+.menu a li{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid rgb(233, 7, 7);
+    box-shadow: 2px 2px 4px rgb(2, 2, 2);
+    font-size: 20px;
+    text-align: center;
+    transform: scale(1);
+    transition: all 0.25s ease;
+    color: #000;
+    background-color: #1aa592;
+    line-height: 30px;
+  }
+  .menu a li:hover {
+    transform: scale(1.1);
+}
+#pj{
+    background-image: url(git.gif);
+    height: 300px;
+    text-align: center;
+    box-shadow: 2px 2px 4px rgb(2, 2, 2);
+
+}
+#foto{
+    width: 70%;
+    height: auto;
+    margin-left: 16%;
+    margin-top: 10px;
+}
+#opispromki{
+    text-align: center;
+    color: red;
+    text-shadow: 2px 2px 4px yellow;
+}
+
